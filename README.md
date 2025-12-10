@@ -22,7 +22,6 @@ Year
 
 These details appear at the top of the generated report.
 
-
 2. Student Records Input
 
 The system automatically expects data for 12 students.
@@ -45,11 +44,14 @@ Programming marks
 
 All marks are stored inside arrays.
 
-
 3. Automatic Calculations
+
 For every student, the program:
+
 Calculates total marks
+
 Assigns a rank/grade using this scale:
+
 Grade Scale
 
 Student Total Marks	Grade
@@ -58,35 +60,54 @@ Student Total Marks	Grade
 420–479	C
 360–419	D
 Below 360	F
-
 Class Statistics Computed
+
 The program generates:
+
 Total marks per subject
+
 Overall total for all subjects
+
 Subject averages
+
 Number of A, B, C, D, and F grades in the class
 
 Output Report
+
 The program prints a neat table containing:
+
 Student Name	English	Math	History	Geography	Science	Programming	Total	Rank
 
 Followed by:
+
 Totals row
+
 Averages row
+
 Grade distribution
 
-
 Program Structure
+
 Input Section
+
 School details
+
 Student marks
+
 Processing Section
+
 Calculate totals
+
 Assign grades
+
 Generate class statistics
 
 Output Section
+
 Detailed marksheet
+
 Totals
+
 Averages
+
 Rank distribution
